@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Class Schedule</string>
+    <string name="buka_roster_kelas">Buka Roster Kelas</string>
+    <string name="buat_roster_baru">Buat Roster Baru</string>
+    <string name="generic_title_name">GENERIC TITLE NAME</string>
 </resources>

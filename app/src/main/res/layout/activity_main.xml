@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:gravity="center"
-        android:text="GENERIC TITLE NAME"
+        android:text="@string/generic_title_name"
         android:textColor="@color/black"
         android:textSize="48dp"
         android:textStyle="bold"
@@ -23,30 +23,32 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buatRosterBaru"
+        android:id="@+id/buttonBuatRosterBaru"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="252dp"
         android:background="@drawable/round_button"
-        android:text="Buat Roster Baru"
+        android:text="@string/buat_roster_baru"
         android:textAllCaps="false"
         android:textSize="20dp"
+        android:onClick="bukaRosterBaru"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
     <Button
-        android:id="@+id/bukaRosterKelas"
+        android:id="@+id/buttonBukaRosterKelas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:background="@drawable/round_button"
-        android:text="Buka Roster Kelas"
+        android:text="@string/buka_roster_kelas"
         android:textAllCaps="false"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buatRosterBaru" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonBuatRosterBaru" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
